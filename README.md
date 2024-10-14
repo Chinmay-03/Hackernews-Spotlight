@@ -1,12 +1,11 @@
 # Hacker News Dashboard
 
-🚀 Welcome to the Hacker News Dashboard! This is a Streamlit application that allows users to view the top stories and job postings from Hacker News.
+🚀 Welcome to the Hacker News Dashboard! This Streamlit application allows users to view the top stories and job postings from Hacker News.
 
 ## Features
 
 - **Top Stories**: Fetch and display the top 15 stories of the day from Hacker News.
 - **Job Postings**: Fetch and display the latest job postings from Hacker News.
-- **Weekly Newsletter**: Subscribe to a weekly newsletter summarizing the top stories.
 
 ## Installation
 
@@ -39,28 +38,8 @@
 ## File Structure
 
 - `streamlit_app.py`: Main Streamlit application file.
-- `job.py`: Contains functions related to fetching job postings.
-- `newsletter.py`: Contains functions related to the weekly newsletter.
-- `test.py`, `test2.py`, `test3.py`: Test files for various functionalities.
-- `test.html`: HTML file for testing purposes.
+- `requirements.txt` : List of libraries required to run this code
 
-## Functions
-
-### `streamlit_app.py`
-
-- `fetch_job(session, job_id)`: Asynchronously fetch a single job posting.
-- `fetch_jobs(job_ids)`: Asynchronously fetch all job postings concurrently.
-- `fetch_job_postings()`: Fetch job postings from Hacker News API.
-- `fetch_story(session, story_id)`: Asynchronously fetch a single story.
-- `fetch_stories(top_ids)`: Asynchronously fetch all stories concurrently.
-- `fetch_top_stories()`: Fetch top stories from Hacker News API.
-- `main()`: Main function to run the Streamlit app.
-
-### `newsletter.py`
-
-- `fetch_top_stories()`: Fetch top stories from Hacker News.
-- `summarize_stories(stories)`: Summarize the fetched stories.
-- `send_newsletter(email, summary)`: Send a newsletter (demo only).
 
 ## Contributing
 
