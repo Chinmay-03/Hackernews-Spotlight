@@ -66,8 +66,8 @@ def fetch_top_stories():
 
 # Main Streamlit app
 def main():
-    st.title("🚀 Hacker News Dashboard")
-    st.write("Welcome to the Hacker News Dashboard! Choose an option below.")
+    st.title("🚀 Hacker News Spotlight")
+    st.write("Welcome to the Hacker News Spotlight! Choose an option below.")
 
     # Button for job postings
     if st.button("💼 List Job Postings"):
