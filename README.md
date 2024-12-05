@@ -1,4 +1,4 @@
-# Hacker News Dashboard
+# Hacker News Spotlight
 
 🚀 Welcome to the Hacker News Dashboard! This Streamlit application allows users to view the top stories and job postings from Hacker News.
 
